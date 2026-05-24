@@ -1,0 +1,177 @@
+{
+  "sidebar": [
+    {
+      "title": "Primeros Pasos",
+      "items": [
+        {
+          "to": "/",
+          "label": "Introducción",
+          "icon": "home",
+          "toc": [
+            { "id": "que-es-aws", "title": "¿Qué es AWS?" },
+            { "id": "cloud-computing", "title": "Cloud Computing" },
+            {
+              "id": "modelo-responsabilidad",
+              "title": "Modelo de responsabilidad compartida"
+            },
+            {
+              "id": "regiones-zonas",
+              "title": "Regiones y zonas de disponibilidad"
+            },
+            { "id": "casos-de-uso", "title": "Casos de uso de AWS" }
+          ]
+        },
+        {
+          "to": "/cuenta",
+          "label": "Cuenta y configuración",
+          "icon": "settings",
+          "toc": [
+            { "id": "crear-cuenta", "title": "Crear una cuenta AWS" },
+            { "id": "free-tier", "title": "Free Tier" },
+            { "id": "consola-aws", "title": "Consola de administración" },
+            { "id": "configurar-mfa", "title": "Configurar MFA" },
+            { "id": "presupuestos-alertas", "title": "Presupuestos y alertas" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Servicios Fundamentales",
+      "items": [
+        {
+          "to": "/iam",
+          "label": "IAM",
+          "icon": "admin_panel_settings",
+          "toc": [
+            { "id": "que-es-iam", "title": "¿Qué es IAM?" },
+            { "id": "usuarios-grupos", "title": "Usuarios y grupos" },
+            { "id": "roles", "title": "Roles" },
+            { "id": "politicas", "title": "Políticas" },
+            { "id": "buenas-practicas", "title": "Buenas prácticas" }
+          ]
+        },
+        {
+          "to": "/ec2",
+          "label": "EC2",
+          "icon": "dns",
+          "toc": [
+            { "id": "que-es-ec2", "title": "¿Qué es EC2?" },
+            { "id": "instancias", "title": "Instancias" },
+            { "id": "amis", "title": "AMIs" },
+            { "id": "security-groups", "title": "Security Groups" },
+            { "id": "key-pairs", "title": "Key Pairs" }
+          ]
+        },
+        {
+          "to": "/s3",
+          "label": "S3",
+          "icon": "folder",
+          "toc": [
+            { "id": "que-es-s3", "title": "¿Qué es S3?" },
+            { "id": "buckets", "title": "Buckets" },
+            { "id": "objetos", "title": "Objetos" },
+            { "id": "permisos", "title": "Permisos" },
+            { "id": "versionado", "title": "Versionado" }
+          ]
+        },
+        {
+          "to": "/vpc",
+          "label": "VPC",
+          "icon": "hub",
+          "toc": [
+            { "id": "que-es-vpc", "title": "¿Qué es una VPC?" },
+            { "id": "subredes", "title": "Subredes" },
+            { "id": "internet-gateway", "title": "Internet Gateway" },
+            { "id": "route-tables", "title": "Route Tables" },
+            { "id": "nat-gateway", "title": "NAT Gateway" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bases de Datos y Backend",
+      "items": [
+        {
+          "to": "/rds",
+          "label": "RDS",
+          "icon": "storage",
+          "toc": [
+            { "id": "que-es-rds", "title": "¿Qué es RDS?" },
+            { "id": "motores-db", "title": "Motores de base de datos" },
+            { "id": "instancias-rds", "title": "Instancias RDS" },
+            { "id": "backups", "title": "Backups" },
+            { "id": "alta-disponibilidad", "title": "Alta disponibilidad" }
+          ]
+        },
+        {
+          "to": "/lambda",
+          "label": "Lambda",
+          "icon": "bolt",
+          "toc": [
+            { "id": "que-es-lambda", "title": "¿Qué es AWS Lambda?" },
+            { "id": "serverless", "title": "Serverless" },
+            { "id": "funciones", "title": "Funciones" },
+            { "id": "eventos", "title": "Eventos" },
+            { "id": "logs-cloudwatch", "title": "Logs con CloudWatch" }
+          ]
+        },
+        {
+          "to": "/api-gateway",
+          "label": "API Gateway",
+          "icon": "api",
+          "toc": [
+            { "id": "que-es-api-gateway", "title": "¿Qué es API Gateway?" },
+            { "id": "apis-rest", "title": "APIs REST" },
+            { "id": "rutas", "title": "Rutas" },
+            { "id": "integracion-lambda", "title": "Integración con Lambda" },
+            { "id": "autenticacion", "title": "Autenticación" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Avanzado",
+      "items": [
+        {
+          "to": "/cloudwatch",
+          "label": "CloudWatch",
+          "icon": "monitoring",
+          "toc": [
+            { "id": "que-es-cloudwatch", "title": "¿Qué es CloudWatch?" },
+            { "id": "metricas", "title": "Métricas" },
+            { "id": "logs", "title": "Logs" },
+            { "id": "alarmas", "title": "Alarmas" },
+            { "id": "dashboards", "title": "Dashboards" }
+          ]
+        },
+        {
+          "to": "/cloudformation",
+          "label": "CloudFormation",
+          "icon": "architecture",
+          "toc": [
+            {
+              "id": "infraestructura-como-codigo",
+              "title": "Infraestructura como código"
+            },
+            { "id": "templates", "title": "Templates" },
+            { "id": "stacks", "title": "Stacks" },
+            { "id": "parametros", "title": "Parámetros" },
+            { "id": "outputs", "title": "Outputs" }
+          ]
+        },
+        {
+          "to": "/deploy",
+          "label": "Deploy",
+          "icon": "rocket_launch",
+          "toc": [
+            { "id": "opciones-deploy", "title": "Opciones de deploy" },
+            { "id": "deploy-frontend", "title": "Deploy de frontend" },
+            { "id": "deploy-backend", "title": "Deploy de backend" },
+            { "id": "dominios-ssl", "title": "Dominios y SSL" },
+            { "id": "buenas-practicas-deploy", "title": "Buenas prácticas" }
+          ]
+        }
+      ]
+    }
+  ]
+}
